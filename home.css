@@ -1,0 +1,95 @@
+html,body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #fffdfa;
+}
+i{
+    position: absolute;
+    left: 40px;
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: orangered;
+}
+span{
+    font-size: 2.8em;
+    display: block;
+    position: absolute;
+    top: 48px;
+    left: 140px;
+    color: orangered;
+}
+
+.hide{
+    opacity: 0;
+    pointer-events: none;
+}
+
+h1{
+    font-size: 3.8rem;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 4px;
+    color: rgb(215, 108, 0);
+}
+#firstDisplay{
+    position: relative;
+    top: 26%;
+}
+
+#mainButton{
+    pointer-events: all!important;
+    transition: 300ms;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    letter-spacing: 4px;
+    font-weight: 600;
+    background-color:rgb(255, 128, 0);
+    box-shadow: 0 0 8px rgba(74, 74, 74, 0.633);
+    border: 0;
+    box-sizing: border-box;
+    padding: 28px;
+    border-radius:44px;
+    margin: auto;
+    width: 94vw;
+    max-width: 600px;
+}
+#mainButton:hover{
+    scale: 1.04;
+    transition: 300ms;
+    background-color: hwb(29 0% 16%);
+}
+
+#PlanContainer{
+    box-sizing: border-box;
+    padding: 20px;
+    gap: 12px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    transition: 500ms;
+    position: absolute;
+    top: 140px;
+    width: 96%;
+    height: 84vh;
+    left: 40px;
+    background-color: rgb(222, 222, 222);
+    border: 1px rgba(0, 0, 0, 0.349) solid;
+}
+
+.planCard{
+    text-align: center;
+    font-size: 2.4em;
+    border-radius: 24px;
+    color: orangered;
+    font-weight: 600;
+    background-color: rgb(255, 255, 255);
+    width:100%;
+}
+.planCard p {
+    font-size:0.8em;
+}
